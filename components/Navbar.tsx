@@ -77,7 +77,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
             className="flex items-center cursor-pointer transition-all duration-300 active:scale-95"
           >
             <img 
-              src="./src/logo.png" 
+              src="http://lh3.googleusercontent.com/d/1tddLLcXiuU3XbJuXPybDxJgfPvMIuZyY" 
               alt="MR. BIKER Pitstop" 
               className="h-20 md:h-24 w-auto object-contain"
             />
