@@ -20,7 +20,6 @@
       h1, h2, h3, .font-heading {
         font-family: 'Oswald', sans-serif;
       }
-      /* Custom Scrollbar for premium feel */
       ::-webkit-scrollbar {
         width: 8px;
       }
@@ -32,18 +31,23 @@
         border-radius: 4px;
       }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-  }
-}
-</script>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+      }
+    }
+    </script>
 </head>
+
 <body class="bg-[#1A1A1A] text-gray-100">
     <div id="root"></div>
+
+    <!-- ✅ THIS IS THE ONLY REQUIRED ADDITION -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>
